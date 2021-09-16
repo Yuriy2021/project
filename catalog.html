@@ -5,113 +5,445 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
+    <title>catalog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <header class="page-header padding-site">
-            <div class="page-header-wrp">
-                <a href="index.html" class="page-header-logo"><img src="img/logo.svg" alt="logo"></a>
-                <form action="#" class="page-header-search-form">
-                    <input class="page-header-search-btn" id="search-btn" type="search" maxlength="6">
-                    <label for="search-btn">
-                        <img src="img/search.svg" alt="icon">
-                    </label>
-                </form>
-            </div>
-            <div class="page-header-wrp">
-                <div class="page-header-wrp-btn">
-                    <nav class="menu">
-                        <label class="menu-btn" for="menu-switch">
-                            <span></span>
+        <header class="page-header">
+            <div class="content-wrp">
+                <div class="page-header-wrp">
+                    <a href="index.html" class="page-header-logo"><img src="img/logo.svg" alt="logo"></a>
+                    <form action="#" class="page-header-search-form">
+                        <input class="page-header-search-btn" id="search-btn" type="search" maxlength="6">
+                        <label for="search-btn">
+                            <img src="img/search.svg" alt="icon">
                         </label>
-                        <input id="menu-switch" type="checkbox">
-                        <ul class="menu-list">
-                            <a href="#" class="menu-list-close-btn"></a>
-                            <span class="menu-list-title">menu</span>
-                            <li class="menu-list-item">
-                                <a href="#">man</a>
-                                <ul class="menu-sublist">
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Accessories</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Bags</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Denim</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">T-Shirts</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-list-item">
-                                <a href="#">woman</a>
-                                <ul class="menu-sublist">
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Accessories</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Jackets &amp;&nbsp;Coats</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Polos</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">T-Shirts</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Shirts</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-list-item">
-                                <a href="#">kids</a>
-                                <ul class="menu-sublist">
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Accessories</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Jackets &amp;&nbsp;Coats</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Polos</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">T-Shirts</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Shirts</a>
-                                    </li>
-                                    <li class="menu-sublist-item">
-                                        <a href="#">Bags</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <a href="#" class="account-btn"><img src="img/auth.svg" alt="icon"></a>
-                    <a href="#" class="cart-btn"><img src="img/cart.svg" alt="icon"></a>
+                    </form>
                 </div>
+                <div class="page-header-wrp">
+                    <div class="page-header-wrp-btn">
+                        <nav class="menu">
+                            <label class="menu-btn" for="menu-switch">
+                                <span></span>
+                            </label>
+                            <input id="menu-switch" type="checkbox">
+                            <ul class="menu-list">
+                                <li><a href="#" class="menu-list-close-btn"></a></li>
+                                <li><span class="menu-list-title">menu</span></li>
+                                <li class="menu-list-item">
+                                    <a href="#">man</a>
+                                    <ul class="menu-sublist">
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Accessories</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Bags</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Denim</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">T-Shirts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#">woman</a>
+                                    <ul class="menu-sublist">
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Accessories</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Jackets &amp;&nbsp;Coats</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Polos</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">T-Shirts</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Shirts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#">kids</a>
+                                    <ul class="menu-sublist">
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Accessories</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Jackets &amp;&nbsp;Coats</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Polos</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">T-Shirts</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Shirts</a>
+                                        </li>
+                                        <li class="menu-sublist-item">
+                                            <a href="#">Bags</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="registration.html" class="account-btn"><img src="img/auth.svg" alt="icon"></a>
+                        <a href="cart.html" class="cart-btn">
+                            <div class="cart-title">
+                                <div class="counter-subtitle">
+                                    <span class="counter-txt">5</span>
+                                    <div class="cart-label">
+                                        <img src="img/cart-1.svg" alt="cart-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </header>
+    </div>
+    <div class="container">
         <main>
-            <section class="page-header-banner_1 padding-site">
-                <div class="page-header-banner-wrp_1">
-                    <h2 class="page-header-banner-title_1">new arrivals</h2>
-                    <nav class="page-header-2">
+            <section class="page-header-product">
+                <div class="page-header-product-wrp">
+                    <h2 class="page-header-product-title">new arrivals</h2>
+                    <div class="page-header-breadcrumbs">
                         <ul class="breadcrumbs">
-                            <li><a class="breadcrumbs-item" href="index.html">home</a></li>
-                            <li><a class="breadcrumbs-item" href="#">men</a></li>
-                            <li class="breadcrumbs-item-1">new arrivals</li>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">men</a></li>
+                            <li>new arrivals</li>
                         </ul>
-                    </nav>
+                    </div>
+                </div>
+            </section>
+            <div class="catalog-subtitle-wrp">
+                <div class="filter">
+                    <input type="checkbox" id="switch-filter">
+                    <label class="filter-btn" for="switch-filter">
+                        <span class="filter-btn-txt">filter</span>
+                        <svg width="15" height="10" viewBox="0 0 15 10" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" />
+                        </svg>
+                    </label>
+                    <ul class="filter-list">
+                        <li class="filter-list-item">
+                            <a href="#">category</a>
+                        </li>
+                        <li class="filter-sublist">
+                        <li class="filter-sublist-item">
+                            <a href="#">Accessories</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Bags</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Denim</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Hoodies &amp;&nbsp;Sweatshirts</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Jackets &amp;&nbsp;Coats</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Polos</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Shirts</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Shoes</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Sweaters &amp;&nbsp;Knits</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">T-Shirts</a>
+                        </li>
+                        <li class="filter-sublist-item">
+                            <a href="#">Tanks</a>
+                        </li>
+                        <li class="filter-list-item">
+                            <a href="#">brand</a>
+                        </li>
+                        <li class="filter-list-item">
+                            <a href="#">designer</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-breadcrumbs">
+                    <form class="trending-link">
+                        <input type="checkbox" id="switch-trend">
+                        <label class="trending-link-btn-title" for="switch-trend">
+                            <span>trending now</span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                            </svg>
+                        </label>
+                    </form>
+                    <form class="list-size">
+                        <input type="checkbox" id="switch">
+                        <label class="list-size-btn-title" for="switch">
+                            <span>size</span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                            </svg>
+                        </label>
+                        <div class="list-size-wrp">
+                            <input class="list-size-item" id="select-xsmall" type="checkbox" value="xsmall"
+                                name="selectName">
+                            <label class="list-size-item-title" for="select-xsmall">xs</label>
+
+                            <input class="list-size-item" id="select-small" type="checkbox" value="small"
+                                name="selectName">
+                            <label class="list-size-item-title" for="select-small">s</label>
+
+                            <input class="list-size-item" id="select-medium" type="checkbox" value="medium"
+                                name="selectName">
+                            <label class="list-size-item-title" for="select-medium">m</label>
+
+                            <input class="list-size-item" id="select-large" type="checkbox" value="large"
+                                name="selectName">
+                            <label class="list-size-item-title" for="select-large">l</label>
+                        </div>
+                    </form>
+                    <form class="price-link">
+                        <input type="checkbox" id="switch-btn">
+                        <label class="price-link-btn-title" for="switch-btn">
+                            <span>price</span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                            </svg>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <section class="products-cat-wrp">
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-1.png" alt="item-1" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-7.png" alt="item-7" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-8.png" alt="item-8" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-9.png" alt="item-9" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-10.png" alt="item-10" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-11.png" alt="item-11" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-12.png" alt="item-12" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-13.png" alt="item-13" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="products-item-cat">
+                    <div class="products-item-photo-wrp">
+                        <img src="img/item-14.png" alt="item-14" class="products-item-photo">
+                    </div>
+                    <div class="products-item-txt-wrp">
+                        <span class="products-item-title">ellery x m'o capsule</span>
+                        <p class="products-item-txt">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <span class="products-item-price">$52.00</span>
+                    </div>
+                    <button class="products-item-btn txt">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+            </section>
+            <div class="pagination">
+                <a class="page-links-sec" href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 2L3 7L8 12L7 14L0 7L7 0L8 2Z" fill="black" />
+                    </svg>
+                </a>
+                <a class="active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">.....</a>
+                <a href="#">20</a>
+                <a class="page-links-sec" href="#"><svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.994995 12L5.995 7L0.994995 2L1.995 0L8.995 7L1.995 14L0.994995 12Z" fill="black" />
+                    </svg>
+                </a>
+            </div>
+            <section class="features">
+                <div class="features-item">
+                    <img class="features-item-icon" src="img/delivery.svg" alt="item">
+                    <span class="features-item-title">Free Delivery</span>
+                    <p class="features-item-txt">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with extensive models.</p>
+                </div>
+                <div class="features-item">
+                    <img class="features-item-icon" src="img/discounts.svg" alt="item">
+                    <span class="features-item-title">Free Delivery</span>
+                    <p class="features-item-txt">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with extensive models.</p>
+                </div>
+                <div class="features-item">
+                    <img class="features-item-icon" src="img/quality.svg" alt="item">
+                    <span class="features-item-title">Free Delivery</span>
+                    <p class="features-item-txt">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with extensive models.</p>
+                </div>
+            </section>
+            <section class="subscribe">
+                <div class="subscribe-info">
+                    <div class="subscribe-info-avatar"></div>
+                    <p class="subscribe-info-txt">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
+                        <span>a&nbsp;pulvinar purus condimentum&raquo;</span>
+                    </p>
+                </div>
+                <div class="subscribe-form-wrp">
+                    <span class="subscribe-form-title">subscribe</span>
+                    <span class="subscribe-form-subtitle">for our newletter and promotion</span>
+                    <form action="#" class="subscribe-form">
+                        <input type="email" class="subscribe-form-email" placeholder="Enter your Email" required>
+                        <input type="submit" class="subscribe-form-btn" value="Subscribe">
+                    </form>
                 </div>
             </section>
         </main>
     </div>
+    <footer class="page-footer container">
+        <p class="page-footer-txt">&copy;2021 Brand All Rights Reserved.</p>
+        <div class="page-footer-socials">
+            <a href="#" class="page-footer-socials-icons"><svg width="9" height="15" viewBox="0 0 9 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.08836 8.28L8.50686 5.61602H5.89022V3.88729C5.89022 3.15847 6.25574 2.44806 7.42765 2.44806H8.61722V0.179975C8.61722 0.179975 7.53772 0 6.50561 0C4.35073 0 2.9422 1.27593 2.9422 3.5857V5.61602H0.546875V8.28H2.9422V14.72H5.89022V8.28H8.08836Z" />
+                </svg>
+            </a>
+            <a href="#" class="page-footer-socials-icons"><svg width="16" height="16" viewBox="0 0 16 15"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.13897 3.68159C6.02383 3.68159 4.31774 5.38491 4.31774 7.49663C4.31774 9.60835 6.02383 11.3117 8.13897 11.3117C10.2541 11.3117 11.9602 9.60835 11.9602 7.49663C11.9602 5.38491 10.2541 3.68159 8.13897 3.68159ZM8.13897 9.9769C6.77211 9.9769 5.65467 8.8646 5.65467 7.49663C5.65467 6.12866 6.76878 5.01636 8.13897 5.01636C9.50915 5.01636 10.6233 6.12866 10.6233 7.49663C10.6233 8.8646 9.50583 9.9769 8.13897 9.9769ZM13.0078 3.52554C13.0078 4.02026 12.6087 4.41538 12.1165 4.41538C11.621 4.41538 11.2252 4.01694 11.2252 3.52554C11.2252 3.03413 11.6243 2.63569 12.1165 2.63569C12.6087 2.63569 13.0078 3.03413 13.0078 3.52554ZM15.5386 4.42866C15.4821 3.23667 15.2094 2.18081 14.3347 1.31089C13.4634 0.440967 12.4058 0.168701 11.2119 0.108936C9.9814 0.039209 6.29321 0.039209 5.0627 0.108936C3.8721 0.165381 2.81453 0.437646 1.93987 1.30757C1.06522 2.17749 0.795836 3.23335 0.735973 4.42534C0.666134 5.65386 0.666134 9.33608 0.735973 10.5646C0.79251 11.7566 1.06522 12.8124 1.93987 13.6824C2.81453 14.5523 3.86878 14.8246 5.0627 14.8843C6.29321 14.9541 9.9814 14.9541 11.2119 14.8843C12.4058 14.8279 13.4634 14.5556 14.3347 13.6824C15.2061 12.8124 15.4788 11.7566 15.5386 10.5646C15.6085 9.33608 15.6085 5.65718 15.5386 4.42866ZM13.949 11.8828C13.6895 12.5335 13.1874 13.0349 12.5322 13.2972C11.5511 13.6857 9.22314 13.596 8.13897 13.596C7.05479 13.596 4.72348 13.6824 3.74573 13.2972C3.09389 13.0382 2.59171 12.5369 2.32898 11.8828C1.93987 10.9033 2.02967 8.57905 2.02967 7.49663C2.02967 6.41421 1.9432 4.08667 2.32898 3.1105C2.58838 2.45972 3.09056 1.95835 3.74573 1.69604C4.7268 1.30757 7.05479 1.39722 8.13897 1.39722C9.22314 1.39722 11.5545 1.31089 12.5322 1.69604C13.184 1.95503 13.6862 2.4564 13.949 3.1105C14.3381 4.08999 14.2483 6.41421 14.2483 7.49663C14.2483 8.57905 14.3381 10.9066 13.949 11.8828Z" />
+                </svg></a>
+            <a href="#" class="page-footer-socials-icons"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.74032 0.203125C3.55564 0.203125 0.408203 2.34063 0.408203 5.8C0.408203 8 1.63738 9.25 2.38233 9.25C2.68963 9.25 2.86655 8.3875 2.86655 8.14375C2.86655 7.85313 2.13091 7.23438 2.13091 6.025C2.13091 3.5125 4.03055 1.73125 6.4889 1.73125C8.60271 1.73125 10.1671 2.94062 10.1671 5.1625C10.1671 6.82187 9.50597 9.93437 7.36422 9.93437C6.59133 9.93437 5.93018 9.37187 5.93018 8.56563C5.93018 7.38438 6.74963 6.24062 6.74963 5.02187C6.74963 2.95312 3.835 3.32812 3.835 5.82812C3.835 6.35313 3.90018 6.93437 4.13298 7.4125C3.70463 9.26875 2.82931 12.0344 2.82931 13.9469C2.82931 14.5375 2.91311 15.1188 2.96899 15.7094C3.07452 15.8281 3.02175 15.8156 3.18316 15.7563C4.74757 13.6 4.69169 13.1781 5.3994 10.3562C5.78119 11.0875 6.76826 11.4812 7.55046 11.4812C10.8469 11.4812 12.3275 8.24688 12.3275 5.33125C12.3275 2.22813 9.66427 0.203125 6.74032 0.203125Z" />
+                </svg>
+            </a>
+            <a href="#" class="page-footer-socials-icons"><svg width="17" height="14" viewBox="0 0 17 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.417 3.74052C14.427 3.88264 14.427 4.0248 14.427 4.16692C14.427 8.50192 11.1498 13.4969 5.15986 13.4969C3.31448 13.4969 1.60022 12.9588 0.158203 12.0248C0.420396 12.0552 0.67247 12.0654 0.944752 12.0654C2.46741 12.0654 3.8691 11.5476 4.98843 10.6644C3.5565 10.6339 2.3565 9.68977 1.94305 8.39027C2.14475 8.4207 2.34642 8.44102 2.5582 8.44102C2.85063 8.44102 3.14308 8.40039 3.41533 8.32936C1.92291 8.02477 0.803551 6.70498 0.803551 5.11108V5.07048C1.23715 5.31414 1.74139 5.46642 2.2758 5.4867C1.39849 4.89786 0.823727 3.8928 0.823727 2.75573C0.823727 2.14661 0.985041 1.58823 1.26741 1.10092C2.87077 3.09077 5.28086 4.39023 7.98334 4.53239C7.93293 4.28873 7.90266 4.03495 7.90266 3.78114C7.90266 1.97402 9.35477 0.501953 11.1598 0.501953C12.0976 0.501953 12.9446 0.897891 13.5396 1.53748C14.2757 1.39536 14.9816 1.12123 15.6068 0.745609C15.3648 1.50705 14.8505 2.14664 14.1749 2.5527C14.8304 2.48167 15.4657 2.29889 16.0505 2.04511C15.6069 2.69483 15.0522 3.27348 14.417 3.74052Z" />
+                </svg>
+            </a>
+        </div>
+    </footer>
 </body>
 
 
